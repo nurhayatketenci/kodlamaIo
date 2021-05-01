@@ -12,10 +12,8 @@ public class Main {
         studentManager.update(student);
 		studentManager.delete(student);
 
-		 InstructorManager instructorManager = new InstructorManager();
-
-		
-		 Instructor instructor = new Instructor(1,"ENGÝN","DEMÝROÐ","engindemirog@gmail.com","kodlamaio","java");
+		InstructorManager instructorManager = new InstructorManager();
+		Instructor instructor = new Instructor(1,"ENGÝN","DEMÝROÐ","engindemirog@gmail.com","kodlamaio","java");
 		instructorManager.add(instructor);
 		instructor.setFirstName("Engin DEMÝROG");
 		instructorManager.update(instructor);
